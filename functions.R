@@ -3,6 +3,9 @@ library(fitdistrplus)
 library(dplyr)
 library(keras)
 
+file_dir = ''
+data_dir = ''
+
 sample_data = function(d, n = 1000){
   m = ncol(d)
   x = mvrnorm(n, mu = rep(0, m), Sigma = cor(d, use = 'complete.obs'), empirical = TRUE)
@@ -162,16 +165,16 @@ in_names = c("IN_N15_", "IN_P_05", "IN_P1020", "IN_P2030", "IN_P3040", "IN_P4050
 names = list(age_names, gender_groups, ethno_names, relig_names, ed_names, lf_names,
              ms_names, hh_names, dw_names, in_names)
 
-postal = 'M5S3G2'
+postal = ''
 
 process_file = function(file_path, var_name, postal, index, ref_age = 18,
                         ref_col = 2, write = TRUE){
   if(!missing(file_path)){
     raw = read_csv(file_path)
-    core = read_csv('C:/Users/Zheng/Documents/GitHub/arima2/core.csv')
+    core = read_csv(paste(file_dir, 'core.csv', sep = ''))
   }
   
-  individual = read_csv(paste('C:/Users/Zheng/Documents/GitHub/arima2/', postal, '.csv', sep = ''))
+  individual = read_csv(paste(file_dir, 'individual.csv', sep = ''))
   if(ref_col == 0)
    target = raw[, index]
   else
@@ -203,9 +206,8 @@ process_file = function(file_path, var_name, postal, index, ref_age = 18,
     colnames(individual)[ncol(individual)] = var_name
   print('Done matching')
   if(write){
-    write.csv(data_raw, 'C:/Users/Zheng/Documents/GitHub/arima2/core.csv', row.names = F)
-    write.csv(individual, paste('C:/Users/Zheng/Documents/GitHub/arima2/', postal, '.csv',
-                                sep = ''), row.names = F)
+    write_csv(data_raw, paste(file_dir, 'core.csv', sep = ''))
+    write_csv(individual, paste(file_dir, 'individual.csv', sep = ''))
     return(individual)
   } else{
     return(matched)
