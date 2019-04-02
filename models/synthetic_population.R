@@ -25,3 +25,7 @@ process_file(file_path = paste(path, 'ET.csv', sep = ''), var_name = 'Ethnicity'
 ##########Generate Religion
 process_file(file_path = paste(path, 'RL.csv', sep = ''), var_name = 'Religion', postal = postal, 
              index = groups[[3]])
+
+##########Generate Education
+process_file(file_path = paste(path, 'ED.csv', sep = ''), var_name = 'Education', postal = postal, 
+             index = groups[[4]])

@@ -136,14 +136,8 @@ ethno_groups = c(3, 43, 44, 52, 61, 66, 77, 84, 100, 119, 125, 146, 172, 241, 27
                  289, 291, 292, 294, 296, 299, 302, 306)
 relig_groups = c(3,4,14:20)
 ed_groups = c(3:4, 6, 9, 12, 15, 16)
-lf_groups = 84:103
-ms_groups = c(88, 89, 91:94)
-hh_groups = 3:7
-dw_groups = 3:5
-in_groups = c(3, 5:14, 16:17)
 
-groups = list(age_groups, gender_groups, ethno_groups, relig_groups, ed_groups, lf_groups,
-              ms_groups, hh_groups, dw_groups, in_groups)
+groups = list(age_groups, gender_groups, ethno_groups, relig_groups, ed_groups)
 
 age_names = c('PP_AVG')
 gender_names = c('PP_MALE')
@@ -154,16 +148,8 @@ ethno_names = c("ET_ABO", "ET_AME", "ET_CAN", "ET_BRIO", "ET_FREO", "ET_WEUO", "
 relig_names = c("RL_BUD", "RL_CHRI", "RL_HIND", "RL_JEW", "RL_MUSL", "RL_SIKH", "RL_ABOR", 
                 "RL_OTRL", "RL_NON")
 ed_names = c("ED_15NC", "ED_15HSC", "ED_15TRC", "ED_15COL", "ED_15BD", "ED_15MAS", "ED_15DOC")
-lf_names = c("LF_INAG", "LF_INMI", "LF_INUT", "LF_INCON", "LF_INMAN", "LF_INWH", "LF_INRT",
-             "LF_INTR", "LF_ININF", "LF_INFIN", "LF_INRS", "LF_INPRO", "LF_INMG", "LF_INADM", 
-             "LF_INEDU", "LF_INHEA", "LF_INART", "LF_INACC", "LF_INOTH", "LF_INPUB")
-ms_names = c("PP_LMR", "PP_CL_Y", "PP_NMR", "PP_SEP", "PP_DIVORCE", "PP_WIDOW")
-hh_names = c("HH_1P", "HH_2P", "HH_3P", "HH_4P", "HH_5P")
-dw_names = c("DW_SINGLE", "DW_APT5_", "DW_OT")
-in_names = c("IN_N15_", "IN_P_05", "IN_P1020", "IN_P2030", "IN_P3040", "IN_P4050", "IN_P5060",
-             "IN_P6070", "IN_P7080", "IN_P8090", "IN_P90100", "IN_P100150", "IN_P150_")
-names = list(age_names, gender_groups, ethno_names, relig_names, ed_names, lf_names,
-             ms_names, hh_names, dw_names, in_names)
+
+names = list(age_names, gender_groups, ethno_names, relig_names, ed_names)
 
 postal = ''
 

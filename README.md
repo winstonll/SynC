@@ -81,8 +81,8 @@ and religion.
 
 
 ## Results
-
-Copy some key results here.
+Below is a summary of simulated data using SynC and surveyed data from selected neighbourhoods in Canada.
+![Result Table](https://github.com/winstonll/SynC/blob/master/figs/results.png)
 
 
 ## Conclusions
