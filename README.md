@@ -58,8 +58,8 @@ All libraries are available for free on [CRAN network](https://cran.r-project.or
 
 ## Datasets
 
-This study primarily uses the Canadian Nation Census Data by Statistics Canada [1]. 
-The data is accessible at https://xxx/.
+This study primarily uses the Canadian Nation Census Data by [Statistics Canada](https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/index.cfm?Lang=E). 
+The data is accessible [here](https://figshare.com/articles/SynC_Data_Sets/7938644).
 
 The main characteristics of the dataset can be summarized as:
 
@@ -104,8 +104,3 @@ tributions could be considered. In particular, the κ-generalized model [5] coul
 be a better candidate for money related variables. Lastly, one could try to in-
 clude more geographical features (such as city-level location, population, GDP
 to increase the accuracy of predicted individual level traits.
-
-
-## References
-
-[1] Data source XXX
