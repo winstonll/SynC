@@ -44,7 +44,7 @@ ducibility  and  demonstrate  its  effectiveness  with  the  Canada  National
 Census data, and 4) present two real-world use cases where datasets of
 this nature can be leveraged by businesses.
 
-![Flowchart](https://flowchart.png)
+![Flowchart](https://github.com/winstonll/SynC/blob/master/figs/flowchart.png)
 
 
 ## Dependency
