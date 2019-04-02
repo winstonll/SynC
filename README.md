@@ -54,6 +54,7 @@ The experiment code is writen in R and built on a number of R libraries (but not
 - dplyr
 - keras
 - readr
+
 All libraries are available for free on [CRAN network](https://cran.r-project.org/)
 
 ## Datasets
@@ -61,7 +62,7 @@ All libraries are available for free on [CRAN network](https://cran.r-project.or
 This study primarily uses the Canadian Nation Census Data by [Statistics Canada](https://www12.statcan.gc.ca/census-recensement/2016/dp-pd/prof/index.cfm?Lang=E). 
 The data is accessible [here](https://figshare.com/articles/SynC_Data_Sets/7938644).
 
-The main characteristics of the dataset can be summarized as:
+The main characteristics of the dataset can be summarised as:
 
 |Property           | Value   |
 |-------------------|---------|
