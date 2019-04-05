@@ -24,25 +24,7 @@ Copula," *Joint European Conference on Machine Learning and Knowledge Discovery 
 
 ## Introduction
 
-Generating synthetic population data from multiple raw data
-sources is a fundamental step for many data science tasks with a wide
-range of applications. However, despite the presence of a number of ap-
-proaches such as iterative proportional fitting (IPF) and combinatorial
-optimization (CO), an efficient and standard framework for handling this
-type of problems is absent. In this study, we propose a multi-stage frame-
-work called SynC (short for Synthetic Population via Gaussian Copula)
-to fill the gap. SynC first removes potential outliers in the data and then
-fits the filtered data with a Gaussian copula model to correctly capture
-dependencies  and  marginals  distributions  of  sampled  survey  data.  Fi-
-nally, SynC leverages neural networks to merge datasets into one. Our
-key contributions include: 1) propose a novel framework for generating
-individual level data from aggregated data sources by combining state-of-
-the-art machine learning and statistical techniques, 2) design a metric for
-validating the accuracy of generated data when the ground truth is hard
-to obtain, 3) release an easy-to-use framework implementation for repro-
-ducibility  and  demonstrate  its  effectiveness  with  the  Canada  National
-Census data, and 4) present two real-world use cases where datasets of
-this nature can be leveraged by businesses.
+Synthetic population generation is the process of combining multiple socioeonomic and demographic datasets from various sources and granularity, and downscaling to an individual level. It is a fundamental step for many data science tasks with a wide range of applications. However, despite the presence of techniques such as iterative proportional fitting (IPF) and combinatorial optimization (CO), an efficient and standard framework for handling this task is absent. In this study, we propose a multi-stage framework called SynC (\textbf{Syn}thetic Population via Gaussian \textbf{C}opula) to fill the gap. SynC first removes potential outliers in the data and then fits the filtered data with a Gaussian copula model to correctly capture dependencies and marginals distributions of sampled survey data. Finally, SynC leverages neural networks to merge datasets into one and then scales them accordingly to match the marginal constraints. Our key contributions are: 1) propose a novel framework for generating individual level data from aggregated data sources by combining state-of-the-art machine learning and statistical techniques, 2) design a metric for validating the accuracy of generated data when the ground truth is hard to obtain, 3) demonstrate its effectiveness with the Canada National Census data and presenting two real-world use cases where datasets of this nature can be leveraged by businesses, and 4) release an easy-to-use framework implementation for reproducibility.
 
 ![Flowchart](https://github.com/winstonll/SynC/blob/master/figs/flowchart.png)
 
@@ -87,21 +69,4 @@ Below is a summary of simulated data using SynC and surveyed data from selected 
 
 
 ## Conclusions
-In this work, we propose a novel framework for generating individual level data
-from  aggregated  data  sources  using  state-of-the-art  data  mining  and  machine
-learning techniques and design a metric for validating the accuracy of generated
-data in which substantial field work is required to collect the ground truth to
-validate  the  outcome  using  traditional  methods.  We  also  create  a  toolbox  for
-generating  synthetic  population  data  using  the  Canada  National  Census  data
-and present two real-world business use cases where datasets of this nature can
-be leveraged by businesses.
-As a first attempt to formalise the problem, we see three areas where future
-works can improve upon. First of all, our method replies on Gaussian copulas
-and this can be further extended by leveraging other families of copulas for bet-
-ter  modeling  of  the  underlying  dependency  structures.  Secondly,  we  use  beta
-distributions and log-normal distributions to model marginal distributions for
-probabilities  and  continuous  variables,  respectively,  and  other  families  of  dis-
-tributions could be considered. In particular, the κ-generalized model [5] could
-be a better candidate for money related variables. Lastly, one could try to in-
-clude more geographical features (such as city-level location, population, GDP
-to increase the accuracy of predicted individual level traits.
+In this work, we propose a novel framework, SynC, for generating individual level data from aggregated data sources, using state-of-the-art machine learning and statistical techniques. Additionally, we design a metric for validating the accuracy of generated data in which substantial fieldwork is required to collect the ground truth to validate the outcome using traditional methods. To show the proposed framework's effectiveness and boost reproducibility, we provide our code and data for the Canada National Census example from Section 4. Finally, we present two real-world business use cases where datasets of this nature can be leveraged by businesses. 
