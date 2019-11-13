@@ -2,15 +2,14 @@
 
 ------------
 
-Wan, C., Li, Z., and Zhao, Y., "SynC: A Unified Framework for Generating Synthetic Population with Gaussian 
-Copula," *Joint European Conference on Machine Learning and Knowledge Discovery in Databases (ECML-PKDD)*, 2019. 
-**Submitted, under review**.
+Wan, C., Li, Z., Guo, A., and Zhao, Y., "SynC: A Unified Framework for Generating Synthetic Population with Gaussian 
+Copula," *AAAI Conference on Artificial Intelligence Workshop*, 2020. **Submitted, under review**.
 
 <!-- Please cite the paper as (only if we submit an arxiv):
 
     @inproceedings{wan2018sythetic,
       title={SynC: A Unified Framework for Generating Synthetic Population with Gaussian Copula},
-      author={Wan, C. and Li, Z. and Zhao, Y.},
+      author={Wan, C. and Li, Z. and Guo, A. and Zhao, Y.},
       journal={arXiv preprint arXiv:1901.01588},
       year={2019},
       url={https://arxiv.org/abs/1901.01588}
