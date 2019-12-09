@@ -13,7 +13,7 @@ Please cite the paper as:
       booktitle={AAAI Workshop on Privacy-Preserving Artificial Intelligence ({PPAI})},
       year={2020}
     
- [PDF](http://arxiv.org/abs/1901.04555) | [PPAI Workshop](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/)
+ [PDF](https://arxiv.org/abs/1904.07998) | [PPAI Workshop](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/)
  
  
 ------------
