@@ -3,14 +3,14 @@
 ------------
 
 Wan, C., Li, Z., Guo, A., and Zhao, Y., "SynC: A Unified Framework for Generating Synthetic Population with Gaussian 
-Copula," *AAAI Workshop on Privacy-Preserving Artificial Intelligence (PPAI)*, 2020. **Accepted, to appear**.
+Copula," *Workshops at the Thirty-Fourth AAAI Conference on Artificial Intelligence*, 2020. **Accepted, to appear**.
 
 Please cite the paper as:
     
     @inproceedings{wan2020sync,
       title={{SynC}: A Unified Framework for Generating Synthetic Population with Gaussian Copula},
       author={Wan, Colin and Li, Zheng and Guo, Alicia and Zhao, Yue},
-      booktitle={AAAI Workshop on Privacy-Preserving Artificial Intelligence ({PPAI})},
+      booktitle={Workshops at the Thirty-Fourth AAAI Conference on Artificial Intelligence},
       year={2020}
     
  [PDF](https://arxiv.org/abs/1904.07998) | [PPAI Workshop](https://www2.isye.gatech.edu/~fferdinando3/cfp/PPAI20/)
