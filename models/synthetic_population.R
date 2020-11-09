@@ -1,7 +1,7 @@
 library(readr)
 file_dir = ''
 data_dir = ''
-source(paste(file_dir, 'sample.R', sep = ''))
+source(paste(file_dir, 'functions.R', sep = ''))
 set.seed(123)
 
 postal = ''
